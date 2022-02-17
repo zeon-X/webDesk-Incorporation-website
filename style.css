@@ -1,0 +1,158 @@
+.fas{
+    font-size: 30px;
+    
+}
+
+
+header{
+    width: 100%;
+    /* position: -webkit-sticky;
+  position: sticky; */
+}
+nav{
+    width: 90%;
+}
+.logo-img{
+    width: 5%;
+    
+}
+.nav-text-size{
+    font-size: 14px;;
+}
+
+
+
+/* main  */
+/* carousol  */
+#item-1{
+    background-image: url('images/cPicture1.jpg');
+}
+#item-2{
+    background-image: url('images/cPicture2.jpg');
+}
+#item-3{
+    background-image: url('images/rawpic/analysis-information-isometric-tech-illustration-digital-technology-web-banner-big-data-processing-computing-software-development-programming_122058-1337.jpg');
+}
+
+.carousel-item{
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width : 686px) {
+    .carousel-item{
+        height: 40vh;
+    }
+}
+.sectionwidth{
+    width : 80%
+}
+.ccc{
+    height: 170px;
+    width: 100%;
+}
+
+.bg-card-prop{
+    background-size: cover;
+    background-position: top;
+}
+#c-1{
+    background-image: url('images/dev/ec.jpg');
+}
+#c-2{
+    background-image: url('images/dev/965d95d0efa1eb1c800bb070e4b01de5.png');
+}
+#c-3{
+    background-image: url('images/dev/ew.jpg');
+}
+#c-4{
+    background-image: url('images/dev/890b8f7fdef568ef66545b253caa369b.png');
+}
+#c-5{
+    background-image: url('images/dev/onpw.jpg');
+}
+#c-6{
+    background-image: url('images/dev/1574675037-871063-a-beautiful-messjpg.jpg');
+}
+
+/* section one  */
+.clr{
+    transition: transform .3s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.clr:hover{
+    color: black;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+.zoom{
+    transition: transform .3s;
+}
+.zoom:hover {
+    color: black;background-color: white;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+/* /section two */
+
+
+.zoom1{
+    
+    transition: transform .3s;
+}
+.zoom1:hover {
+    /* color: black;background-color: white; */
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+    
+  }
+
+
+
+
+a{
+    text-decoration: none;
+    
+}
+
+#cnt-submit-btn, #get-in-toch-btn{
+    border-color: #3A3B3C;
+    /* border-color: orangered; */
+}
+#cnt-submit-btn:hover{
+    border-color: orangered;
+    color: white;
+    background-color: orangered;
+}
+#get-in-toch-btn:hover{
+    border-color: orangered;
+    color: white;
+    background-color: orangered;
+}
+
+footer{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.footerWeight {
+    width: 85%;
+    /* font-size: 11px; */
+}
+.fa-angle-up{
+    font-size: 15px;
+    color: black;
+}
+
+@media screen and (max-width : 686px) {
+    .content{
+        margin: 0px 20px;
+    }
+}
